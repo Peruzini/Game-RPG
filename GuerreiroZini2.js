@@ -30,9 +30,9 @@ function guerreiro(escolha) {
         window.location.href = 'guerreiro2gameover2.html';
     }
     else{
-        return'VOCE GANHOU';
+        window.location.href = 'vitoria.html';
     }
 }
 
-var dale = guerreiro(opcao(filtragem(Number(prompt('DECIDA PARA ONDE IRA \n 1-QUARTO \n 2-FOGE PARA FORA DE CASA \n 3-ESPERA NO MESMO LUGAR ')))));
+var dale = guerreiro(opcao(filtragem(Number(prompt('Decida o que fazer \n 1-Ataque \n 2-Foge e volta Pra Casa\n 3-Aguarda para o que vai sair do Arbusto ')))));
 alert(dale);
