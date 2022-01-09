@@ -33,5 +33,5 @@ function destino(escolha) {
     }
 }
 
-var dale = destino(opcao(filtragem(Number(prompt('Decida o que fazer \n 1-Ataque \n 2-Lança uma magia neles \n 3-Aguarda para o que vai sair do Arbusto ')))));
+var dale = destino(opcao(filtragem(Number(prompt('Decida o que fazer \n 1-Ataque \n 2-Sneak Attack \n 3-Aguarda para o que vai sair do Arbusto ')))));
 alert(dale);
