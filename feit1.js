@@ -32,5 +32,5 @@ function destino(escolha) {
     }
 }
 
-var dale = destino(opcao(filtragem(Number(prompt('Voce se encontra em uma rua movimentada por cormeciantes \n Esolha um dos seguintes itens: \n 1-Espada \n 2-Maça \n 3-Gasta o dinheiro na Taverna')))));
+var dale = destino(opcao(filtragem(Number(prompt('Voce se encontra em uma rua movimentada por cormeciantes \n Esolha um dos seguintes itens: \n 1-Staff \n 2-Maça \n 3-Gasta o dinheiro na Taverna')))));
 document.write(dale)

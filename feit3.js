@@ -28,7 +28,8 @@ function destino(escolha) {
         window.location.href = 'GuerreiroZini1gameover2.html';
     }
     else{
-        return window.location.href = 'GuerreiroZini1gameover2.html';
+        return window.location.href = 'vitoria.html';
+        
     }
 }
 
