@@ -29,9 +29,9 @@ function destino(escolha) {
     }
     else{
         return window.location.href = 'vitoria.html';
-        
     }
 }
 
 var dale = destino(opcao(filtragem(Number(prompt('Decida o que fazer \n 1-Ataque \n 2-Sneak Attack \n 3-Aguarda para o que vai sair do Arbusto ')))));
 alert(dale);
+
