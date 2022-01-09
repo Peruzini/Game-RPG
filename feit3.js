@@ -22,10 +22,10 @@ function filtragem(escolha){
 
 function destino(escolha) {
     if (escolha === 1) {
-        window.location.href = 'GuerreiroZini2.html';    
+        window.location.href = 'gameover2.html';    
     } 
     else if(escolha === 2){
-        window.location.href = 'GuerreiroZini1gameover2.html';
+        window.location.href = 'gameover2.html';
     }
     else{
         return window.location.href = 'vitoria.html';
@@ -33,5 +33,5 @@ function destino(escolha) {
     }
 }
 
-var dale = destino(opcao(filtragem(Number(prompt('Decida o que fazer \n 1-Ataque \n 2-Foge e volta Pra Casa\n 3-Aguarda para o que vai sair do Arbusto ')))));
+var dale = destino(opcao(filtragem(Number(prompt('Decida o que fazer \n 1-Ataque \n 2-Lança uma magia neles \n 3-Aguarda para o que vai sair do Arbusto ')))));
 alert(dale);
