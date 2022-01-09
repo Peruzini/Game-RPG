@@ -22,13 +22,13 @@ function filtragem(escolha){
 
 function destino(escolha) {
     if (escolha === 1) {
-        window.location.href = 'GuerreiroZini2.html';    
+        window.location.href = 'feit2.html';    
     } 
     else if(escolha === 2){
-        window.location.href = 'GuerreiroZini1gameover2.html';
+        window.location.href = 'gameover1.html';
     }
     else{
-        return window.location.href = 'GuerreiroZini1gameover2.html';
+        return window.location.href = 'gameover1.html';
     }
 }
 
