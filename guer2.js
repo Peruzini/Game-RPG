@@ -11,7 +11,7 @@ function opcao(escolha) {
 }
 
 function filtragem(escolha){
-    while (escolha  > 3 || escolha < 1 ) {
+    while (escolha  > 4 || escolha < 1 ) {
         alert('OPÇÃO INVALIDA')
         escolha = Number(prompt());   
     }
@@ -19,5 +19,5 @@ function filtragem(escolha){
 }
 
 function inicio(params) {
-    window.location.href = 'guer1.html'
+    window.location.href = 'guer3.html'
 }
