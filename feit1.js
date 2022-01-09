@@ -1,3 +1,4 @@
+
 function opcao(escolha) {        
     if (escolha === 1) {
         return 1;
@@ -21,15 +22,15 @@ function filtragem(escolha){
 
 function destino(escolha) {
     if (escolha === 1) {
-        window.location.href = 'feit2.html';    
+        window.location.href = 'GuerreiroZini2.html';    
     } 
     else if(escolha === 2){
-        window.location.href = 'gameover1.html';
+        window.location.href = 'GuerreiroZini1gameover2.html';
     }
     else{
-        return window.location.href = 'gameover2.html';
+        return window.location.href = 'GuerreiroZini1gameover2.html';
     }
 }
 
-var dale = destino(opcao(filtragem(Number(prompt('Voce se encontra em uma rua movimentada por cormeciantes \n Escolha um dos seguintes itens: \n 1-Staff \n 2-Maça \n 3-Gasta o dinheiro na Taverna')))));
+var dale = destino(opcao(filtragem(Number(prompt('Voce se encontra em uma rua movimentada por cormeciantes \n Esolha um dos seguintes itens: \n 1-Espada \n 2-Maça \n 3-Gasta o dinheiro na Taverna')))));
 document.write(dale)
