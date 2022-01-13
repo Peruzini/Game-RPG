@@ -22,7 +22,7 @@ function filtragem(escolha){
 
 function destino(escolha) {
     if (escolha === 1) {
-        window.location.href = '01-HTML\feit2.html';    
+        window.location.href = 'feit2.html';    
     } 
     else if(escolha === 2){
         window.location.href = 'gameover1.html';
